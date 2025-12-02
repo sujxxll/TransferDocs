@@ -1,0 +1,74 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# -----------------------------
+# Streamlit
+# -----------------------------
+# Streamlit cache directory
+.streamlit/cache/
+.streamlit/secrets.toml
+.streamlit/state.json
+
+# If using experimental features
+.streamlit/*.json
+
+# -----------------------------
+# Uvicorn / FastAPI
+# -----------------------------
+# Uvicorn logs
+*.pid
+*.db
+*.sqlite3
+
+# If using reload, temporary files
+reload/
+
+# -----------------------------
+# Build / Packaging
+# -----------------------------
+build/
+dist/
+pip-wheel-metadata/
+*.spec
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# -----------------------------
+# Misc
+# -----------------------------
+.DS_Store
+*.env
+.env
+.env.*
+*.sqlite
+logs/
